@@ -1,0 +1,35 @@
+## See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
+## newer versions of Lubuntu.
+deb http://archive.ubuntu.com/ubuntu/ mantic main restricted
+
+## Major bug fix updates produced after the final release of Lubuntu.
+## Have you noticed a regression? Please report it!
+## https://wiki.ubuntu.com/StableReleaseUpdates#Regressions
+deb http://archive.ubuntu.com/ubuntu/ mantic-updates main restricted
+
+## Software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu team.
+## Also, please note that software in Universe WILL NOT receive any review or
+## updates from the Ubuntu security team directly. Updates in this repository
+## are provided by volunteers, but most come from Debian.
+deb http://archive.ubuntu.com/ubuntu/ mantic universe
+deb http://archive.ubuntu.com/ubuntu/ mantic-updates universe
+
+## Software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu team,
+## and may not be under a free licence. Please satisfy yourself as your rights
+## to use the software. Also, please note that software in Multiverse WILL NOT
+## receive any review or updates from the Ubuntu security team directly.
+deb http://archive.ubuntu.com/ubuntu/ mantic multiverse
+deb http://archive.ubuntu.com/ubuntu/ mantic-updates multiverse
+
+## Software from this repository contains tested security updates from the
+## Ubuntu security team.
+deb http://security.ubuntu.com/ubuntu mantic-security main restricted
+deb http://security.ubuntu.com/ubuntu mantic-security universe
+deb http://security.ubuntu.com/ubuntu mantic-security multiverse
+
+## Software from this repository may not have been tested as extensively as
+## software contained in the main release, although it includes newer versions
+## of some applications which may provide useful features. Also, please note
+## that software in Backports WILL NOT receive any review or updates from the
+## Ubuntu security team.
+deb http://archive.ubuntu.com/ubuntu/ mantic-backports main restricted universe multiverse
